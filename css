@@ -4,6 +4,8 @@ body {
 
 h1 {
     color: rgb(255, 255, 255);
+    display: inline;
+    border: 10px solid black;
 }
 
 h2 {
@@ -15,10 +17,19 @@ h3 {
 
 }
 li {
-    color: aliceblue;
+    inline-size: 1000px;
+    display: inline;
+    margin: 15px;
+    border: 100px;
+    color: rgb(255, 0, 0);
+    
+}
+nav{
+    display: inline;
 }
 
 
 p {
     color: antiquewhite;
+    line-height: 16px;
 }
